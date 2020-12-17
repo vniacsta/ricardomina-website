@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #dedede;
+}
+
+.empty-bar {
+  background-color: #d15c3f;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 40px;
+}
+
+.introduction {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 250px;
+  padding: 0;
+}
+
+.name {
+  padding: 10px 0 0 30px;
+}
+
+.category {
+  font-size: 24px;
+  padding-left: 30px;
+  font-weight: lighter;
+  color: #d15c3f;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.data td {
+  padding-left: 30px;
+  min-width: 200px;
+}
+
+.data-answers {
+  font-weight: bold;
+}
+
+.data-questions {
+  font-size: small;
+  font-style: italic;
+}
+
+.media {
+  font-size: 30px;
+  padding: 0 0 0 30px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 200s ease-in-out;
+}
+
+.media a {
+  color: #d15c3f;
+}
+
+#discord {
+  border: none;
+  color: #d15c3f;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.media a:hover {
+  color: #000;
+}
+
+#discord:hover {
+  color: #000;
+}
+
+.fab {
+  padding-right: 15px;
+}
+
+.cv {
+  margin-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  margin: 20px;
+}
+
+.footer a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.accordion-button {
+  outline: none;
+}
+
+.cv-element p,
+li,
+td {
+  margin: 0;
+  font-size: 13px;
+  padding-bottom: 2px;
+}
+
+.cv-element h3 {
+  font-size: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.cv-element ul,
+table {
+  margin: 0 0 30px 0;
+}
+
+.cv-element table {
+  margin-left: 16px;
+}
+
+.cv-element table .dates {
+  text-align: right;
+  padding-right: 10px;
+}
