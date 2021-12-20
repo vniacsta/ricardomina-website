@@ -2,3 +2,4 @@
 
 Ricardo Mina
 
+https://ricardomina.netlify.app/
